@@ -1,0 +1,43 @@
+<html>
+<head>
+<title> Lab4 Experiment </title>
+<script src="script/processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+
+void setup(){
+
+size( 2000, 1400 );
+background(0,0,0);
+frameRate( 30 );
+
+ballmarblesoda = loadImage("ballmarblesoda.jpg");
+currytogo = loadImage("currytogo.jpg");
+meatball = loadImage("meatball.jpg");
+
+}
+
+
+void draw()
+{
+
+image(ballmarblesoda,50,75, 200, 150);
+image(currytogo,300,100,250,150);
+image(meatball,600,100,400,150);
+
+rect (350,300, 100, 100)
+rect (100, 300, 100, 100)
+rect (700,300, 100, 100)
+rect (100, 500, 100, 100)
+rect (350, 500, 100, 100)
+rect (700, 500, 100, 100)
+
+}
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>
